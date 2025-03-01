@@ -1,0 +1,1293 @@
+{
+    "x_test": [
+        {
+            "Age": 9.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 40.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 37.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 17.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 60.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 50.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 57.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 30.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 37.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 7.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 26.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 0.75,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 50.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 17.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 29.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 29.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 40.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 49.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 51.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 22.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 39.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 17.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 33.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 31.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 51.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 51.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 36.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 46.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 4.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 26.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 39.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 45.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 48.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 50.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 11.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 29.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 27.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 19.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 36.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 22.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 5.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 23.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 49.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 3.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 4.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 27.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 41.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 26.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 34.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 55.5,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 36.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 42.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 50.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 21.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 46.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 14.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 42.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 36.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 27.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 4.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 55.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 29.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 26.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 27.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 17.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 38.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 19.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 51.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 31.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 21.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 47.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 27.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 39.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 2.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 30.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 32.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 30.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 28.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 21.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 23.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 52.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 24.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 33.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 18.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 44.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 22.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 52.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 20.5,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 40.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 31.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 42.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 29.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 30.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 35.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 32.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": true,
+            "Pclass_3": false
+        },
+        {
+            "Age": 23.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 10.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 19.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 34.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 14.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 25.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 22.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 45.5,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": false,
+            "Sex_male": true,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        },
+        {
+            "Age": 33.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": true,
+            "Pclass_2": false,
+            "Pclass_3": false
+        },
+        {
+            "Age": 16.0,
+            "Sex_female": true,
+            "Sex_male": false,
+            "Pclass_1": false,
+            "Pclass_2": false,
+            "Pclass_3": true
+        }
+    ],
+    "y_test": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+    ]
+}

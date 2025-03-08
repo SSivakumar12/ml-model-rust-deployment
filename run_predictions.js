@@ -19,7 +19,8 @@ async function invoke_model(payload) {
         const response = await fetch("http://127.0.0.1:8080/predict", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ features: Object.values(payload) })
+            body: JSON.stringify({ features: Object.values(payload),
+                                   model_architecture: "DecisionTree"})
         });
 
         if (!response.ok) {

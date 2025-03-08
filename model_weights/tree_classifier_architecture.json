@@ -1,0 +1,107 @@
+{
+    "condition": null,
+    "feature": "Sex_female",
+    "threshold": 0.5,
+    "left": {
+        "condition": "Sex_female <= 0.5000",
+        "feature": "Age",
+        "threshold": 13.0,
+        "left": {
+            "condition": "Age <= 13.0000",
+            "feature": "Pclass_3",
+            "threshold": 0.5,
+            "left": {
+                "condition": "Pclass_3 <= 0.5000",
+                "value": [
+                    [
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "right": {
+                "condition": "Pclass_3 > 0.5000",
+                "value": [
+                    [
+                        0.5789473684210527,
+                        0.42105263157894735
+                    ]
+                ]
+            }
+        },
+        "right": {
+            "condition": "Age > 13.0000",
+            "feature": "Pclass_1",
+            "threshold": 0.5,
+            "left": {
+                "condition": "Pclass_1 <= 0.5000",
+                "value": [
+                    [
+                        0.8866396761133604,
+                        0.11336032388663968
+                    ]
+                ]
+            },
+            "right": {
+                "condition": "Pclass_1 > 0.5000",
+                "value": [
+                    [
+                        0.65,
+                        0.35
+                    ]
+                ]
+            }
+        }
+    },
+    "right": {
+        "condition": "Sex_female > 0.5000",
+        "feature": "Pclass_3",
+        "threshold": 0.5,
+        "left": {
+            "condition": "Pclass_3 <= 0.5000",
+            "feature": "Age",
+            "threshold": 2.5,
+            "left": {
+                "condition": "Age <= 2.5000",
+                "value": [
+                    [
+                        0.5,
+                        0.5
+                    ]
+                ]
+            },
+            "right": {
+                "condition": "Age > 2.5000",
+                "value": [
+                    [
+                        0.05555555555555555,
+                        0.9444444444444444
+                    ]
+                ]
+            }
+        },
+        "right": {
+            "condition": "Pclass_3 > 0.5000",
+            "feature": "Age",
+            "threshold": 38.5,
+            "left": {
+                "condition": "Age <= 38.5000",
+                "value": [
+                    [
+                        0.5205479452054794,
+                        0.4794520547945205
+                    ]
+                ]
+            },
+            "right": {
+                "condition": "Age > 38.5000",
+                "value": [
+                    [
+                        0.9166666666666666,
+                        0.08333333333333333
+                    ]
+                ]
+            }
+        }
+    }
+}

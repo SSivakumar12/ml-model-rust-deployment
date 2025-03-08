@@ -1,51 +1,31 @@
 use actix_web::{post, web, App, HttpServer, Responder};
-use serde::{Deserialize, Serialize};
-use std::fs;
+use serde::Deserialize;
+mod decision_tree_classifier;
+mod logistic_regression;
 
 // Define request structure
 #[derive(Deserialize)]
 struct InputData {
     features: Vec<f64>,
-}
-
-// Define model parameters
-#[derive(Serialize, Deserialize)]
-struct Model {
-    weight: Vec<f64>,
-    bias: Vec<f64>,
-}
-
-// Sigmoid function
-fn sigmoid(x: f64) -> f64 {
-    1.0 / (1.0 + (-x).exp())
-}
-
-// Load model parameters from file
-fn load_model() -> Model {
-    let data = fs::read_to_string("logistic_regression_architecture.json").expect("Failed to read model file");
-    serde_json::from_str(&data).expect("Failed to parse JSON")
-}
-
-fn predict(features: &Vec<f64>, model: &Model) -> f64 {
-    // predicts the probability of surival
-    // if greater than 0.5 assume survival and vice versa death :(
-    let z: f64 = features.iter().zip(model.weight.iter())
-                         .map(|(x, w)| x * w)
-                         .sum::<f64>() + model.bias[0];
-    if 0.5 < sigmoid(z) {
-        return 1.0
-    } else {
-        return 0.0
-    }
-    
+    model_architecture: String,
 }
 
 // API endpoint
 #[post("/predict")]
 async fn predict_handler(input: web::Json<InputData>) -> impl Responder {
-    let model = load_model();
-    let probability = predict(&input.features, &model);
-    format!("Probability: {:.4}", probability)
+    if input.model_architecture == "logistic" {
+        let model = logistic_regression::load_logistic_model();
+        let probability = logistic_regression::logistic_prediction(&input.features, &model);
+        format!("{}", probability)
+    } else if input.model_architecture == "decisiontree" {
+        let _model = decision_tree_classifier::load_decision_tree_model().unwrap();
+        format!("not yet supported :(")
+    } else {
+        format!(
+            "model architecture specified {input_data} not supported",
+            input_data = input.model_architecture
+        )
+    }
 }
 
 // Main function
@@ -57,6 +37,3 @@ async fn main() -> std::io::Result<()> {
         .run()
         .await
 }
-
-
-

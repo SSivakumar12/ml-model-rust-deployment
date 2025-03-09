@@ -18,8 +18,10 @@ async fn predict_handler(input: web::Json<InputData>) -> impl Responder {
         let probability = logistic_regression::logistic_prediction(&input.features, &model);
         format!("{}", probability)
     } else if input.model_architecture == "decisiontree" {
-        let _model = decision_tree_classifier::load_decision_tree_model().unwrap();
-        format!("not yet supported :(")
+        let model = decision_tree_classifier::load_decision_tree_model().unwrap();
+        let probability =
+            decision_tree_classifier::decision_tree_prediction(&input.features, &model);
+        format!("{}", probability)
     } else {
         format!(
             "model architecture specified {input_data} not supported",

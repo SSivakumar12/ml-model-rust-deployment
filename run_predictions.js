@@ -14,13 +14,14 @@ function preprocess_data(data) {
 }
 
 async function invoke_model(payload) {
-    // predicts the liklihood of surival
+    // predicts the liklihood of surival using particular architecture
+    // currently supports decisiontree/logistic classifier.
     try {
         const response = await fetch("http://127.0.0.1:8080/predict", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ features: Object.values(payload),
-                                   model_architecture: "DecisionTree"})
+                                   model_architecture: "decisiontree"})
         });
 
         if (!response.ok) {

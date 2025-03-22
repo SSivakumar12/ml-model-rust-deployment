@@ -8,6 +8,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 
@@ -29,9 +30,9 @@ def load_split_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]
     # Save test data
     with open("data/testing_dataset.json", "w") as file:
         json.dump({"x_test": X_test.to_dict("records"), 
-                "y_test": y_test.to_list()}, 
-                file, 
-                indent=4)
+                   "y_test": y_test.to_list()}, 
+                  file, 
+                  indent=4)
     return X_train, X_test, y_train, y_test
 
 def identify_save_strategy(model: sklearn, 
@@ -49,14 +50,22 @@ def identify_save_strategy(model: sklearn,
         if not os.path.isfile(file_path):
             with open(file_path, "w") as file:
                 json.dump({"weight": model.coef_.flatten().tolist(), 
-                        "bias": model.intercept_.tolist()}, file, indent=4)
+                           "bias": model.intercept_.tolist()}, file, indent=4)
 
     elif "DecisionTreeClassifier" in repr(model):
         file_path = "model_weights/decision_tree_classifier_architecture.json"
-        # TODO: write function with create a JSON logic to run a classifier in rust
         if not os.path.isfile(file_path):
             with open(file_path, "w") as file:
                 json.dump(save_tree_based_classifier(model.tree_, feature_names),
+                          file, 
+                          indent=4)
+
+    elif "RandomForestClassifier" in repr(model):
+        file_path = "model_weights/random_forest_classifier_architecture.json"
+        if not os.path.isfile(file_path):
+            with open(file_path, "w") as file:
+                json.dump([save_tree_based_classifier(tree.tree_, feature_names)
+                           for tree in model.estimators_],
                           file, 
                           indent=4)
     else:
@@ -91,16 +100,16 @@ def train_model_architecture(model: sklearn,
 
 def save_tree_based_classifier(tree: sklearn, feature_names: list[str]) -> dict:
     """
-    recursively goes down a tree to 
-    define the decisions in dictionary format
+    recursively goes down a tree to define the decisions in dictionary format
+    this can the be saved as a JSON and picked up by rust
     """
     def recurse(node, condition=None):
-        if tree.children_left[node] == -1:  # Leaf node
+        if tree.children_left[node] == -1:
             return {"condition": condition, "value": tree.value[node].tolist()}
         return {
             "condition": condition,
             "feature": feature_names[tree.feature[node]],
-            "threshold": tree.threshold[node],
+            "threshold": float(tree.threshold[node]),
             "left": recurse(tree.children_left[node], f"{feature_names[tree.feature[node]]} <= {tree.threshold[node]:.4f}"),
             "right": recurse(tree.children_right[node], f"{feature_names[tree.feature[node]]} > {tree.threshold[node]:.4f}"),
         }
@@ -112,7 +121,8 @@ if __name__ == "__main__":
     # which can be implemented in rust
     models = [
         LogisticRegression(random_state=0),
-        DecisionTreeClassifier(random_state=0, max_depth=3)
+        DecisionTreeClassifier(random_state=0, max_depth=3),
+        RandomForestClassifier(random_state=0, max_depth=3, n_estimators=10)
     ]
     X_train, X_test, y_train, y_test = load_split_data()
 

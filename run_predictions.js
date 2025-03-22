@@ -2,6 +2,7 @@ const fs = require("fs");
 
 const rawData = fs.readFileSync("data/testing_dataset.json", "utf8");
 const jsonData = JSON.parse(rawData);
+const MODEL = "randomforest"
 
 function preprocess_data(data) {
     // Overwrites value of keys to numeric datatype to comply with rust data model
@@ -21,7 +22,7 @@ async function invoke_model(payload) {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ features: Object.values(payload),
-                                   model_architecture: "decisiontree"})
+                                   model_architecture: MODEL})
         });
 
         if (!response.ok) {
@@ -44,6 +45,7 @@ async function run_predictions() {
 
 async function main() {
     // invokes model and predictions and then 
+    console.log(`payload of data recieved model to use ${MODEL}`)
     let startTime = new Date();
     const outputs = await run_predictions();
     let endTime = new Date();

@@ -41,7 +41,9 @@ async fn predict_handler(input: web::Json<InputData>) -> impl Responder {
 async fn main() -> std::io::Result<()> {
     println!("running service now");
     HttpServer::new(|| App::new().service(predict_handler))
-        .bind("127.0.0.1:8080")?
+        // bind to port 0.0.0.0:8080 for docker
+        // bind to 127.0.0.1:8080 for local development
+        .bind("0.0.0.0:8080")?
         .run()
         .await
 }

@@ -17,8 +17,10 @@ function preprocess_data(data) {
 async function invoke_model(payload) {
     // predicts the liklihood of surival using particular architecture
     // currently supports decisiontree/logistic classifier.
+    // determine which endpoint you need use depending on where you run it
+    development = "http://127.0.0.1:8080"
     try {
-        const response = await fetch("http://127.0.0.1:8080/predict", {
+        const response = await fetch(`${development}/predict`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ features: Object.values(payload),

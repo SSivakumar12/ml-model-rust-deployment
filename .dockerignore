@@ -1,0 +1,8 @@
+.gitignore
+.git
+**/data
+**/img
+README.md
+requirements.txt
+train_model.py
+run_predictions.js
